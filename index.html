@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script></head>
+<body>
+    <div class="topnav">
+    <a class="active" href="#">Pizzaria</a>
+    <div class="topnav-right">
+        <a href="#viewblock">View Menu</a>
+        <a href="#addtopings">Add Menu</a>
+        </div>
+    </div>
+    
+    <div class="row" id="viewblock">
+    <div class="img_div">
+        <img class="img-responsive" src="https://static.vecteezy.com/system/resources/thumbnails/000/695/413/small/seamless-pattern-of-pizza-isolated-on-black-background.jpg"></div>
+   
+    
+    <div class="manu_div">
+        <button id="menu_list" onclick="getmenu()">Show menu</button>
+    <div id="display_menu"></div>
+        </div>
+    </div>
+    
+    <div class="Newrow" id="addtopings">
+        <div class="block1">
+        <input id="add_item" placeholder="Type Here to add toppings?"><br>
+         <button id="add_topings" onclick="add_item()">Recommend a New Pizza</button></div>
+    </div>
+    
+    <div>
+    <img class="img-responsive" src="https://static.vecteezy.com/system/resources/thumbnails/000/695/413/small/seamless-pattern-of-pizza-isolated-on-black-background.jpg"></div>
+    
+    <div class="block2">
+    <div id="display_addmenu">
+        </div></div>
+    
+     </body></html>
